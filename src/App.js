@@ -17,7 +17,6 @@ function App() {
   if (select === "") {
     return (
       <main>
-        <Header />
         <Box h="auto" display="flex" justifyContent="center">
 
           <Box _hover={{ transitionDuration: '700ms', background: "white", w: '50%' }} transitionDuration='500ms' w="300px" p="3" mb="25px" mr="15px" ml="15px" display="flex" flexDirection="column" alignItems="center" borderRadius="15px" boxShadow='md' bg="lightblue">
@@ -47,14 +46,12 @@ function App() {
   } else if (select === "eshop") {
     return (
       <main>
-        <Header />
         <Eshop />
       </main >
     );
   } else if (select === "wordpress") {
     return (
       <main>
-        <Header />
         <Wordpress />
       </main >
     );
@@ -62,7 +59,6 @@ function App() {
   else if (select === "landing") {
     return (
       <main>
-        <Header />
         <Landing />
       </main>
     );
